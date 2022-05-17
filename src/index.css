@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  text-align: center;
+  width: 550px;
+  margin: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin:0;
+  font-family: sans-serif;
+  background:rgb(33, 30, 30);
+  color:rgb(227, 224, 224);
+  text-align: center;
+}
+
+.EmpView{
+  margin: auto;
+  padding: 0 auto;
+  width: 0 auto;
+  background:rgb(25, 29, 30);
+  color:#ddd;
+}
+
+.view{
+  margin: 50px;
+  padding:100px auto;
+  width: 0 auto;
+  border:1px solid gray;
+  background:rgb(25, 29, 30);
+  color:#ddd;
+  border-radius :2%;
+  box-shadow: rgba(100, 95, 95, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  cursor:pointer;
+  display: inline;
+}
+li:hover{
+  color:#ffffff;
+}
+
+button{
+  margin-bottom: 15px;
+  padding:3px 15px;
+  background-color: #2b2929;
+  color:#ddd;
+  cursor:pointer;
+}
+button:hover{
+  color:#ffffff;
 }
